@@ -30,3 +30,4 @@ Thumbs.db
 
 # === Visual Studio Code ===
 .vscode/
+Resources/Raw/firebase-adminsdk.json
