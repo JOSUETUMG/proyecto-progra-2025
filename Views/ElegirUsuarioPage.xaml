@@ -1,0 +1,41 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoF.Views.ElegirUsuarioPage"
+             Title="Elegir Tipo de Usuario"
+             BackgroundColor="#F5F5F5">
+
+    <VerticalStackLayout Padding="40" Spacing="25" VerticalOptions="Center">
+        <Label Text="Seleccione el tipo de usuario"
+               FontSize="22"
+               FontAttributes="Bold"
+               TextColor="#333"
+               HorizontalOptions="Center"/>
+
+        <Button Text="Administrador"
+                FontSize="18"
+                CornerRadius="12"
+                HeightRequest="45"
+                WidthRequest="250"
+                BackgroundColor="#007BFF"
+                TextColor="White"
+                Clicked="OnAdminClicked"/>
+
+        <Button Text="Maestro"
+                FontSize="18"
+                CornerRadius="12"
+                HeightRequest="45"
+                WidthRequest="250"
+                BackgroundColor="#28A745"
+                TextColor="White"
+                Clicked="OnMaestroClicked"/>
+
+        <Button Text="Estudiante"
+                FontSize="18"
+                CornerRadius="12"
+                HeightRequest="45"
+                WidthRequest="250"
+                BackgroundColor="#FFC107"
+                TextColor="Black"
+                Clicked="OnEstudianteClicked"/>
+    </VerticalStackLayout>
+</ContentPage>

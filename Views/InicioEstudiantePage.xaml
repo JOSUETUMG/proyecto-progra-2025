@@ -1,0 +1,10 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoF.Views.InicioEstudiantePage"
+             Title="Inicio Estudiante">
+    <VerticalStackLayout>
+        <Label Text="Bienvenido, estudiante" 
+               FontSize="24" 
+               HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>

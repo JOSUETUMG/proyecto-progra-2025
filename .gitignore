@@ -1,0 +1,32 @@
+# === Archivos y carpetas compiladas ===
+bin/
+obj/
+
+# === Archivos de usuario de Visual Studio ===
+.vs/
+*.user
+*.suo
+
+# === Archivos temporales del sistema ===
+.DS_Store
+Thumbs.db
+
+# === Archivos de logs o bases de datos locales ===
+*.log
+*.db
+*.sqlite
+
+# === Archivos grandes que no debes subir ===
+*.apk
+*.aab
+*.zip
+*.mp4
+*.mov
+*.jpg
+*.png
+
+# === Archivos de entorno ===
+.env
+
+# === Visual Studio Code ===
+.vscode/
