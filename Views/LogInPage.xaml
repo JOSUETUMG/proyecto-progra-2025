@@ -12,7 +12,7 @@
             WidthRequest="250" 
             BackgroundColor="#FF9800"
             TextColor="White"
-            Clicked="OnBackClicked"/>
+            Clicked="AtrasClick"/>
         
         <Label Text="Ingrese sus credenciales"
                FontSize="22"

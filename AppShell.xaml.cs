@@ -13,11 +13,6 @@ namespace ProyectoF
             Routing.RegisterRoute("InicioMaestroPage", typeof(ProyectoF.Views.InicioMaestroPage));
             Routing.RegisterRoute("InicioEstudiantePage", typeof(ProyectoF.Views.InicioEstudiantePage));
             Routing.RegisterRoute("InicioAdminPage", typeof(ProyectoF.Views.InicioAdminPage));
-
-            CurrentItem = new ShellContent
-            {
-                ContentTemplate = new DataTemplate(typeof(ElegirUsuarioPage))
-            };
         }
     }
 }

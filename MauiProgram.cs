@@ -5,7 +5,7 @@ using Google.Apis.Auth.OAuth2;
 using Microsoft.Extensions.Logging;
 
 namespace ProyectoF
-{ //grep -ril 'SessionData.TipoUsuario' . grep -ril 'SessionData.TipoUsuario' . | xargs -I {} mv {} rescatados3/
+{
     public static class MauiProgram
     {
         public static MauiApp CreateMauiApp()

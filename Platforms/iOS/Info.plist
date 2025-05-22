@@ -28,5 +28,10 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/appicon.appiconset</string>
+	
+	<key>NSCameraUsageDescription</key>
+	<string>Necesitamos acceso a la cámara para escanear documentos.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Guardaremos la imagen en la galería si deseas.</string>
 </dict>
 </plist>

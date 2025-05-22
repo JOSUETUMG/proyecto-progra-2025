@@ -18,7 +18,7 @@
                 WidthRequest="250"
                 BackgroundColor="#007BFF"
                 TextColor="White"
-                Clicked="OnAdminClicked"/>
+                Clicked="AdminClick"/>
 
         <Button Text="Maestro"
                 FontSize="18"
@@ -27,7 +27,7 @@
                 WidthRequest="250"
                 BackgroundColor="#28A745"
                 TextColor="White"
-                Clicked="OnMaestroClicked"/>
+                Clicked="MaestroClick"/>
 
         <Button Text="Estudiante"
                 FontSize="18"
@@ -36,6 +36,6 @@
                 WidthRequest="250"
                 BackgroundColor="#FFC107"
                 TextColor="Black"
-                Clicked="OnEstudianteClicked"/>
+                Clicked="EstudianteClick"/>
     </VerticalStackLayout>
 </ContentPage>
